@@ -1,4 +1,4 @@
-function [ Xtt ] = tt_decomposition2( X, split, ranks, alg, varargin )
+function [ Xtt ] = tt_decomposition( X, split, ranks, alg, varargin )
     dim = size(X);
     N = ndims(X);
     r_left = 1;
